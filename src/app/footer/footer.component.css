@@ -1,0 +1,65 @@
+.container{
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer{
+font-family:bold;
+padding:12px;
+font-size:20px;
+letter-spacing: 2px;
+text-decoration:none;
+color:black;
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0;
+    display:flex;
+    flex:1 0;
+}
+
+nav ul li a{
+    padding:12px;
+    display:inline-block;
+    font-size:20px;
+}
+
+.social{
+    color:gray;
+}
+
+.social:hover{
+    opacity:0.8;
+    color:#1778f2;
+}
+
+.gooter{height:170px;}
+
+table, th {
+    border-top:1px solid red;
+    font-size:15px;
+    
+}
+
+table {
+    width:85%;
+    margin:0 auto;
+    position:relative;
+    top:8%;
+    padding:10px;
+    height:140px;
+}
+
+td {
+    text-align: center;
+    padding:5px;
+}
+
+td:hover{cursor:pointer;  
+}
+
+h2{text-align:center;
+font-size:12px;
+padding-top:15px;}
